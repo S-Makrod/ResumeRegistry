@@ -1,2 +1,4 @@
 # ResumeRegistry
-A Resume Registry web application coded with PHP, JavaScript, jQuery, HTML, and CSS. It follows a Model-View-Controller and CRUD design.
+
+## Necessary Software
+I use MAMP to run my SQL server, MAMP is available at https://www.mamp.info/en/downloads/.

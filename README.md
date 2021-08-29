@@ -4,14 +4,16 @@
 I use MAMP to run my SQL server, MAMP is available at https://www.mamp.info/en/downloads/. You will also need to create the tables in the SQL server.
 
 ## Demo
-A demo can be seen at https://youtu.be/ENi-VVnlCSk. Note that there is no audio it is a quick video to show the application and database uploading.
+A demo can be seen at https://youtu.be/ENi-VVnlCSk. 
+
+Note that there is no audio, it is a quick video to show the application and database uploading.
 
 ## Description
 This is a resume registry developed using PHP, MySQL, jQuery, JavaScript, HTML, and CSS. It was developed to have CRUD functionality and follows a Model-View-Controller design.
 
-You can sign up and sign in to the web application and then create, read, update, and delete profiles. Each profile has a first name, last name, email, headline, and summary asmandatory sections. Additionally you can add education and positions.
+You can sign up and sign in to the web application and then create, read, update, and delete profiles. Each profile has a first name, last name, email, headline, and summary as mandatory sections. Additionally, you can add education and positions.
 
-For the eduction I have an auto fill bar that uses the institution database shown in my demo to auto complete previously entered schools. Whenever someone enters a school that is not recognized it is added to the institution database.
+For the eduction I have autocompletion that uses the institution database shown in my demo to autocomplete previously entered schools. Whenever someone enters a school that is not recognized it is added to the institution database.
 
 I used htmlentities() and PDO prepare statements to avoid SQL and HTML injection.
 

@@ -1,0 +1,72 @@
+body{
+    font-family: Georgia, Bookman, 'Times New Roman', Times, serif;
+    background-color: #ffe8d6;
+    padding: 2%;
+}
+
+#message{
+    color: #E5383B;
+}
+
+#insert{
+    color: rgb(108, 192, 108);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(52, 119, 158);
+}
+
+a:hover{
+    color: #660708;
+}
+
+#headline{
+    min-width: 40vw;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 40vw;
+    min-height: 30vh;
+}
+
+table th{
+    background-color: #6b705c;
+    color: #000;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+table tr{
+    line-height: 200%;
+    color: #000;
+    opacity: .8;
+}
+
+table tr:nth-child(even){
+    background-color: #a5a58d;
+}
+
+table tr:nth-child(odd){
+    background-color: #b7b7a4;
+}
+
+table tr:hover{
+    opacity: 1;
+}
+
+table td{
+    padding: 5px;
+    font-size: 100%;
+    border: 2px double rgba(86, 131, 92, 0.568);
+    text-align: center;
+}
+
+#first_name, #last_name, #summary, #headline, #email, #pass, #name{
+    margin-bottom: 1%;
+}
+
